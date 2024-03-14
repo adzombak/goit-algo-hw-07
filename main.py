@@ -28,14 +28,14 @@ def min_value(node):
     current = node
     while current.left is not None:
         current = current.left
-    return current
+    return current.val
 
 
 def max_value(node):
     current = node
     while current.right is not None:
         current = current.right
-    return current
+    return current.val
 
 
 def sum_nodes(node):
